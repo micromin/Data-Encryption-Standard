@@ -2,7 +2,7 @@
  * DES-Encryption C++ (ECB)
  * Copyright (c) 2017 MING-CHIEN LEE
  * 
- * Fork from ammosh/Data-Encryption-Standard (https://github.com/ammosh/Data-Encryption-Standard)
+ * Forked from ammosh/Data-Encryption-Standard (https://github.com/ammosh/Data-Encryption-Standard)
  * 
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -364,7 +364,7 @@ int main()
     cout << "DES-Encryption C++ (ECB)" << endl;
     cout << "Copyright (c) 2017 MING-CHIEN LEE. All rights reserved." << endl;
     cout << "MIT license" << endl << endl;
-    cout << "Fork from ammosh/Data-Encryption-Standard (https://github.com/ammosh/Data-Encryption-Standard)" << endl << endl;
+    cout << "Forked from ammosh/Data-Encryption-Standard (https://github.com/ammosh/Data-Encryption-Standard)" << endl << endl;
     cout << "Enter message (8 byte plaint text):";
     cin >> msg;
     cout << "Enter key (8 byte plaint text):";
