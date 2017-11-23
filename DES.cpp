@@ -348,7 +348,7 @@ void Cipher(long long int msg, long long int key)
     long long int final = l0 + 1;
     final = final << 32;
     final += r0;
-    cout << "Cipher (hex): " << hex << final << "\nChipher Left (hex): " << l0 << "  Chipher Right (hex): " << r0 << endl;
+    cout << "[ Cipher (hex): " << hex << final << " ]\nChipher Left (hex): " << l0 << "  Chipher Right (hex): " << r0 << endl;
 }
 
 int main()
