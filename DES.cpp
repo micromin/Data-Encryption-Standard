@@ -347,10 +347,10 @@ void Cipher(long long int msg, long long int key)
     r0 = l0;
     l0 = rt;
     finalP(l0, r0);
-    long long int final = l0;
+    long long int final = l0 + 1;
     final = final << 32;
     final += r0;
-    cout << "Cipher (hex): " << uppercase << hex << final << "\nChipher Left (hex): " << uppercase << l0 << "  Chipher Right (hex): " << uppercase << r0 << endl;
+    cout << "Cipher (hex): " << hex << final << "\nChipher Left (hex): " << l0 << "  Chipher Right (hex): " << r0 << endl;
 }
 
 int main()
@@ -363,8 +363,10 @@ int main()
     long long int keyd;
     cout << "DES-Encryption C++ (ECB)" << endl;
     cout << "Copyright (c) 2017 MING-CHIEN LEE. All rights reserved." << endl;
-    cout << "MIT license" << endl << endl;
-    cout << "Forked from ammosh/Data-Encryption-Standard (https://github.com/ammosh/Data-Encryption-Standard)" << endl << endl;
+    cout << "MIT license" << endl
+         << endl;
+    cout << "Forked from ammosh/Data-Encryption-Standard (https://github.com/ammosh/Data-Encryption-Standard)" << endl
+         << endl;
     cout << "Enter message (8 byte plaint text):";
     cin >> msg;
     cout << "Enter key (8 byte plaint text):";
